@@ -1,7 +1,3 @@
 # Abstract
 
-This project focuses on the classification of the Fashion MNIST dataset, which contains 70,000 clothing images across 10 distinct categories. 
-The study implements a comparative analysis between a baseline Multi-Layer Perceptron (MLP) and a Deep Convolutional Neural Network (CNN). 
-The workflow encompasses data preprocessing, error visualization, and rigorous performance evaluation using Confusion Matrices and AUC scores. 
-Key findings indicate that while the basic model provides a decent baseline, the Deep CNN significantly improves accuracy by capturing spatial hierarchies in the image data. 
-Furthermore, hyperparameter tuning—specifically the inclusion of Dropout and Batch Normalization—was found to be essential in mitigating overfitting, resulting in a robust model with a validation accuracy of over 91%.
+In this hands-on, two neural network models were implemented on the Fashion MNIST dataset: a basic neural network and a deeper neural network. The deeper model generally performed better because it learned more complex patterns from the image pixels. Loss and accuracy plots helped show the training behavior, while the confusion matrix revealed which clothing categories were most often confused. Multiclass AUC also provided an additional performance measure. Hyperparameter tuning showed that learning rate, batch size, epochs, and dropout had a visible impact on performance. This matches the lecture objective of implementing one basic and one deep model, visualizing errors, comparing confusion matrices, testing AUC, and experimenting with hyperparameters
